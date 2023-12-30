@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"">
+  <link rel="shortcut icon" href="./images/fav-logo.png" type="image/x-icon">
+  <link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>WE WEAR</title>
+</head>
+
+<body>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <section id="top-nav-bar" class="select-none">
+    <div class="row w-100 d-none d-lg-flex">
+      <div class="col-md-6 d-lg-flex col-left d-none">
+        <img src="./images/shoes.png" alt="" style="width: 25px; margin-left: 50px;">
+      </div>
+      <div class="col-md-6 d-none d-md-block">
+        
+      </div>
+    </div>
+  </section>
+  <section id="nav-bar">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid logo row">
+        <a class="navbar-brand ms-4 col-md-9 d-lg-flex col-8 col-lg-1" href="index.html"><span>WE WEAR</span></a>
+        <a class="nav-link inside-search select-none d-flex d-lg-none cursor col-1"><i class="fa-solid fa-magnifying-glass text-dark p-1"></i></a>
+        <button class="navbar-toggler col-1 p-0 select-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo1">
+          <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse col-md-10" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 underline ms-auto pe-5 me-5 me-md-4 pe-md-4">
+            <li class="nav-item dropdown middle-items">
+              <a class="nav-link py-3 px-3 ms-5">New & Featured</a>
+            </li>
+            <li class="nav-item middle-items">
+              <a class="nav-link py-3 px-3" href="#">Men</a>
+            </li>
+            <li class="nav-item middle-items">
+              <a class="nav-link py-3 px-3" href="#">Women</a>
+            </li>
+            <li class="nav-item middle-items">
+              <a class="nav-link py-3 px-3 d-block" href="#">Kids</a>
+            </li>
+            <li class="nav-item middle-items">
+              <a class="nav-link py-3 px-3 d-block d-xl-block d-md-none" href="#">Sale</a>
+            </li>
+          </ul>
+          <nav class="icon-circle col-md-4 col-0 ps-5">
+            <ul class="navbar-nav d-none d-md-none d-lg-flex align-items-center ms-md-0 ps-xl-4 ms-xl-5">
+              <form class="d-flex position-relative d-xl-flex" role="search">
+                <input class="form-control rounded-pill border-0 ps-5 pe-0" type="search" placeholder="Search"
+                  aria-label="Search">
+                <a class="nav-link position-absolute inside-search"><i
+                    class="fa-solid fa-magnifying-glass text-dark"></i></a>
+              </form>
+              <li class="nav-item">
+                <a class="nav-link fs-5"><i class="fa-solid fa-heart text-dark"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fs-5" href="#" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                  <i class="fa fa-shopping-bag text-dark" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <section id="banner">
+    <div class="banner-img position-relative">
+      <img src="./images/org-banner.png" alt="BANNER-SHOE" class="d-none d-md-block img-fluid">
+      <img src="./images/org-banner-mini.png" alt="BANNER-SHOE" class="d-block d-md-none img-fluid">
+      <div class="row">
+        <div class="position-absolute overlay-text">
+          <h4 class="text-light">Walk your path with stylish steps</h4>
+          <p class="text-light px-5 pe-sm-5">Lorem ipsum dolor sit amet consectetur adipis icing elit. Neque in ratione
+            explicabo iusto mollitia dolor commodi qui? Officii.</p>
+          <button class="btn bg-light rounded-0 hover-btn d-none d-md-inline me-2" type="button">SHOP NOW</button>
+          <button class="btn bg-light rounded-0 hover-btn d-none d-md-inline" type="button">QUICK VIEW</button>
+          <button class="btn bg-light rounded-0 hover-btn d-inline d-md-none w-75 h-75 my-4" type="button">SHOP
+            NOW</button>
+          <button class="btn bg-light rounded-0 hover-btn d-inline d-md-none w-75 h-75" type="button">QUICK
+            VIEW</button>
+        </div>
+      </div>
+  </section>
+  <!-- OFFCANVAS-BOOSTRAP5 -->
+  <div class="offcanvas offcanvas-end select-none" id="demo">
+    <div class="offcanvas-header">
+      <p class="offcanvas-title fs-5">Shopping Card</p>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body position-relative">
+      <p class="text-center pt-5 mt-5">card is empty.</p>
+      <button class="btn btn-secondary w-75 rounded-0 bottom-0 position-absolute my-4 ms-5" type="button">CONTINUE
+        SHOPPING</button>
+    </div>
+  </div>
+  <div class="offcanvas offcanvas-end w-md-50 w-75 select-none" id="demo1">
+    <div class="offcanvas-header cross">
+      <p class="offcanvas-title fs-5"></p>
+      <button type="button" data-bs-dismiss="offcanvas"><i class="fa-solid fa-xmark text-dark"></i></button>
+    </div>
+    <div class="offcanvas-body position-relative">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 underline col-0">
+        <li class="nav-item">
+          <a class="nav-link py-3 px-3" href="#">New & Featured</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link py-3 px-3" href="#">Men</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link py-3 px-3" href="#">Women</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link py-3 px-3 d-block" href="#">Kids</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link py-3 px-3 d-block d-xl-block d-md-none" href="#">Sale</a>
+        </li>
+        <li class="nav-item d-flex align-items-center justify-content-center">
+            <img src="./images/fav-logo.png" alt="" class="img-fluid w-50 w-md-25">
+        </li>
+        <div class="content">
+          <p class="px-3">We Wear brand wear for all customers and enjoy our services,entertinment items are available for all.For join our membership.</p>
+          <center>
+            <button class="btn bg-dark text-light rounded-pill login-btn" data-mdb-ripple-init
+            data-mdb-ripple-color="light">Log In</button>
+            <button class="btn bg-light rounded-pill sign-btn">Sign Up</button>
+          </center>
+        </div>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
