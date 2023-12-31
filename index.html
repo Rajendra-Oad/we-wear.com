@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <link rel="shortcut icon" href="./images/fav-logo.png" type="image/x-icon">
   <link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -17,27 +17,33 @@
   <!-- Latest compiled JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <section id="top-nav-bar" class="select-none">
-    <div class="row w-100 d-none d-lg-flex">
-      <div class="col-md-6 d-lg-flex col-left d-none">
-        <img src="./images/shoes.png" alt="" style="width: 25px; margin-left: 50px;">
+    <div class="row d-none d-lg-flex col-12">
+      <div class="col-md-9 d-lg-flex col-left d-none">
+        <img src="./images/shoes.png" alt="" style="width: 25px; margin-left: 60px;">
       </div>
-      <div class="col-md-6 d-none d-md-block">
-        
+      <div class="col-md-3 d-none d-lg-flex ps-xxl-5 ps-xl-5 ps-md-3">
+        <div class="top-right ps-xxl-5 ps-xl-4">
+          <a href="#" class="px-2 text-fliud ps-xxl-5 ps-lg-1 ps-md-0 ps-0">
+            <span>Any Help</span>
+          </a> <span class="line">|</span>
+          <a href="#" class="px-2 text-fliud"><span>Join Now</span></a> <span class="line">|</span>
+          <a href="login.html" class="px-2 text-fliud"><span>Log In</span></a>
+        </div>
       </div>
     </div>
   </section>
   <section id="nav-bar">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg py-1">
       <div class="container-fluid logo row">
         <a class="navbar-brand ms-4 col-md-9 d-lg-flex col-8 col-lg-1" href="index.html"><span>WE WEAR</span></a>
-        <a class="nav-link inside-search select-none d-flex d-lg-none cursor col-1"><i class="fa-solid fa-magnifying-glass text-dark p-1"></i></a>
+        <a class="nav-link select-none d-flex d-lg-none cursor col-1"><i class="fa-solid fa-magnifying-glass text-dark"></i></a>
         <button class="navbar-toggler col-1 p-0 select-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo1">
           <span><i class="fa-solid fa-bars"></i></span>
         </button>
         <div class="collapse navbar-collapse col-md-10" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0 underline ms-auto pe-5 me-5 me-md-4 pe-md-4">
-            <li class="nav-item dropdown middle-items">
-              <a class="nav-link py-3 px-3 ms-5">New & Featured</a>
+            <li class="nav-item middle-items">
+              <a class="nav-link py-3 px-3" href="#">New & Featured</a>
             </li>
             <li class="nav-item middle-items">
               <a class="nav-link py-3 px-3" href="#">Men</a>
@@ -52,7 +58,7 @@
               <a class="nav-link py-3 px-3 d-block d-xl-block d-md-none" href="#">Sale</a>
             </li>
           </ul>
-          <nav class="icon-circle col-md-4 col-0 ps-5">
+          <nav class="icon-circle col-md-4 col-0 ps-5 select-none">
             <ul class="navbar-nav d-none d-md-none d-lg-flex align-items-center ms-md-0 ps-xl-4 ms-xl-5">
               <form class="d-flex position-relative d-xl-flex" role="search">
                 <input class="form-control rounded-pill border-0 ps-5 pe-0" type="search" placeholder="Search"
@@ -132,9 +138,9 @@
         <div class="content">
           <p class="px-3">We Wear brand wear for all customers and enjoy our services,entertinment items are available for all.For join our membership.</p>
           <center>
-            <button class="btn bg-dark text-light rounded-pill login-btn" data-mdb-ripple-init
-            data-mdb-ripple-color="light">Log In</button>
-            <button class="btn bg-light rounded-pill sign-btn">Sign Up</button>
+            <a href="login.html" class="bg-light"><button class="btn bg-dark text-light rounded-pill login-btn" data-mdb-ripple-init
+              data-mdb-ripple-color="light">Log In</button></a>
+            <a href="login.html" class="text-dark"><button class="btn bg-light rounded-pill sign-btn">SIgn In</button></a>
           </center>
         </div>
       </ul>

@@ -7,14 +7,14 @@
     outline: none !important;
     box-shadow: none !important;
 }
-::selection{
+*::selection{
     color: white;
     background-color: #6E7051;
 }
 .select-none{
     user-select: none;
 }
-body {
+*{
     font-family: 'Alata';
 }
 img::selection{
@@ -81,11 +81,24 @@ img::selection{
     background: #F5F5F5;
 }
 #top-nav-bar .row {
-    padding: 10px 0;
+    padding: 7px 0;
 }
 #top-nav-bar .row .col-left img:hover{
     opacity: 0.8;
     cursor: pointer;
+}
+#top-nav-bar .row a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 12.5px;
+}
+#top-nav-bar .row a:hover{
+    opacity: 0.5;
+}
+#top-nav-bar .row .line{
+    font-size: 11.5px;
+    font-weight: 700;
 }
  /* 
 -------------------------------------------
@@ -97,6 +110,10 @@ img::selection{
     NAV-BAR-STARTS
 -------------------------------------------
  */
+ #nav-bar{
+    position: relative;
+    z-index: 1;
+ }
 #nav-bar .navbar .logo>a{
     font-weight: 700;
     letter-spacing: 5px;
@@ -120,7 +137,7 @@ img::selection{
     color: #000000;
     /* text-decoration: underline;
     text-underline-offset: 16px; */
-    box-shadow: 0px 2px 0px 0px black;
+    box-shadow: 0px 1.5px 0px 0px black;
     overflow-x: hidden;
 }
 #nav-bar button{
@@ -142,6 +159,23 @@ img::selection{
     justify-content: center;
 }
 #nav-bar .icon-circle ul i:hover{
+    background-color: rgba(128, 128, 128, 0.185);
+    border-radius: 50%;
+    width: 32px;
+    cursor: pointer;
+    height: 32px;
+}
+#nav-bar .logo a i{
+    color: #000000;
+    display: flex;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+}
+#nav-bar .logo a i:hover{
     background-color: rgba(128, 128, 128, 0.185);
     border-radius: 50%;
     width: 32px;
@@ -250,4 +284,66 @@ img::selection{
         text-align: center;
     }
     
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------
+-------------------------------------------
+    login-file--strats
+-------------------------------------------
+ */
+#login form{
+    padding: 10px 0 !important;
+}
+#login form .form input{
+    width: 330px !important;
+    height: 45px !important;
+    border-radius: 7px;
+    font-size: 16px;
+    border: 0.1px solid #000;
+    outline: none;
+    margin-bottom: 15px;
+}
+#login form .login-btn:hover{
+    opacity: 0.89;
+}
+#login form .btn-1{
+    border: 0.1px solid #00000079;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 5px 50px !important;
+}
+#login form .btn-1:hover{
+    background-color: #00000042;
+    border: 0.1px solid #000000;
+}
+#login form .btn-1 a{
+    text-decoration: none;
+    color: #000;
+}
+#login form .btn-2{
+    border: 0.1px solid #00000079;
+    border-radius: 20px;
+    padding: 5px 55px !important;
+}
+#login form .btn-2 a{
+    text-decoration: none;
+    color: #000;
+}
+#login form .btn-2:hover{
+    background-color: #00000042;
+    border: 0.1px solid #000000;
+}
+#login .login-link a{
+    text-decoration: none;
+    color: #000;   
+}
+#login .login-link a:hover,#login .login-link a:focus{
+    opacity: 0.7;
+}
+@media (max-width:360px) {
+    #login form .form input{
+        width: 270px !important;
+        height: 45px !important;
+    }
 }
