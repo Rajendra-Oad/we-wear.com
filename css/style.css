@@ -276,7 +276,7 @@ img::selection{
     font-weight: 500;
     transition: 0.25s;
 }
-#banner .hover-btn:hover{
+#banner .hover-btn:hover,#banner .hover-btn:focus{
     background-color: #292902 !important;
     color: #ffffff;
 }
@@ -337,7 +337,7 @@ img::selection{
     text-decoration: none;
     color: #fff;
 }
-#footer .footer-content-p p>a:hover{
+#footer .footer-content-p p>a:hover,#footer .footer-content-p p>a:focus{
     opacity: 1;
 }
 #footer .footer-icons {
