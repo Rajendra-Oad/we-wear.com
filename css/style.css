@@ -131,16 +131,17 @@ img::selection{
     NAV-BAR-STARTS
 -------------------------------------------
  */
- /* #nav-bar{
+ #nav-bar{
     position: sticky;
     z-index: 1;
     top: 0;
     background: #fff;
- } */
+ }
 #nav-bar .navbar .logo>a{
     font-weight: 700;
     letter-spacing: 5px;
     color: #000000;
+    /* margin-left: 35px !important; */
 }
 #nav-bar .navbar .logo>a:hover{
     opacity: 0.68;
@@ -276,7 +277,7 @@ img::selection{
     font-weight: 500;
     transition: 0.25s;
 }
-#banner .hover-btn:hover,#banner .hover-btn:focus{
+#banner .hover-btn:hover{
     background-color: #292902 !important;
     color: #ffffff;
 }
@@ -311,6 +312,65 @@ img::selection{
 
  /* 
 -------------------------------------------
+    SHOE-ITEMS--STARTS
+-------------------------------------------
+ */
+#shoe-items .view-icons a{
+    text-decoration: none;
+    color: #000;
+}
+#shoe-items .view-icons a i{
+    background: #E4E4E4;
+    padding: 15px 19px;
+    border-radius: 50%;
+
+}
+#shoe-items .view-icons a i:hover{
+    background: #cbcbcb;
+
+}
+#shoe-items .img-slider{
+    overflow-x: scroll;
+}
+#shoe-items .img-slider img{
+    width: 450px !important;
+}
+@media (max-width:576px) {
+    #shoe-items .img-slider img{
+        width: 310px !important;
+    }
+}
+/* #shoe-items .carousel-control-prev{
+    opacity: 1;
+}
+#shoe-items .carousel-control-next{
+    opacity: 1;
+}
+#shoe-items #carouselExample img{
+    width: 345px !important;
+}
+#shoe-items #carouselExample .carousel-control-prev i{
+    background: #fff !important;
+    font-size: 12px;
+    padding: 15px 18px!important;
+    border-radius: 50%;
+    color: #000 !important;
+}
+#shoe-items #carouselExample .carousel-control-next i{
+    background: #fff !important;
+    font-size: 12px;
+    padding: 15px 18px!important;
+    border-radius: 50%;
+    color: #000 !important;
+} */
+  /* 
+-------------------------------------------
+    SHOE-ITEMS--ENDS
+-------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
+ */
+ /* 
+-------------------------------------------
     FOOTER--STARTS
 -------------------------------------------
  */
@@ -337,7 +397,7 @@ img::selection{
     text-decoration: none;
     color: #fff;
 }
-#footer .footer-content-p p>a:hover,#footer .footer-content-p p>a:focus{
+#footer .footer-content-p p>a:hover{
     opacity: 1;
 }
 #footer .footer-icons {
@@ -390,7 +450,7 @@ img::selection{
     height: 45px !important;
     border-radius: 7px;
     font-size: 16px;
-    border: 0.1px solid #000;
+    border: 1px solid #000;
     outline: none;
     margin-bottom: 15px;
 }
