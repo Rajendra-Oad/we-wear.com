@@ -2,10 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    cursor: default;
+}
+a,i{
+    cursor: pointer;
 }
 .btn-close:focus,.btn-close:active{
     outline: none !important;
     box-shadow: none !important;
+}
+*{
+    scroll-behavior: smooth;
 }
 *::selection{
     color: white;
@@ -72,6 +79,20 @@ img::selection{
 .offcanvas-body .sign-btn:hover{
     border: 1px solid rgb(70, 70, 70);
 }
+#scroll-up .scroll a {
+    position: fixed;
+    bottom: 25px !important;
+    right: 25px !important;
+    z-index: 1;
+}
+#scroll-up .scroll a i {
+    background: #ffffff7e;
+    padding: 15px;
+    border-radius: 50%;
+}
+#scroll-up .scroll a i:hover{
+    background: #ffffffce;
+}
 /* 
 -------------------------------------------
     TOP_NAV-BAR-STARTS
@@ -110,10 +131,12 @@ img::selection{
     NAV-BAR-STARTS
 -------------------------------------------
  */
- #nav-bar{
-    position: relative;
+ /* #nav-bar{
+    position: sticky;
     z-index: 1;
- }
+    top: 0;
+    background: #fff;
+ } */
 #nav-bar .navbar .logo>a{
     font-weight: 700;
     letter-spacing: 5px;
@@ -201,7 +224,7 @@ img::selection{
 }
 #nav-bar .icon-circle form input::placeholder{
     color: #2929023e;
-    font-weight: 600;
+    font-weight: 500;
 }
 #nav-bar .icon-circle form input:hover::placeholder{
     color: #2929028c;
@@ -285,6 +308,73 @@ img::selection{
     }
     
 }
+
+ /* 
+-------------------------------------------
+    FOOTER--STARTS
+-------------------------------------------
+ */
+#footer{
+    background: #000;
+    color: #fff;
+}
+#footer p{
+    font-size: 13px !important;
+}
+#footer h4{
+    font-size: 14.5px !important;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+#footer .para{
+    opacity: 0.5;
+}
+#footer .footer-bottom .footer-bottom-left .footer-content-p p{
+    opacity: 0.5;
+}
+#footer .footer-content-p p>a{
+    opacity: 0.5;
+    text-decoration: none;
+    color: #fff;
+}
+#footer .footer-content-p p>a:hover{
+    opacity: 1;
+}
+#footer .footer-icons {
+    text-decoration: none;
+    color: #000;
+}
+#footer .footer-icons i {
+    background: #ffffff;
+    padding: 10px;
+    opacity: 0.5;
+    border-radius: 50%;
+}
+#footer .footer-icons i:hover{
+    opacity: 1;
+}
+#footer .footer-icons .fa-facebook-f{
+    background: #ffffff;
+    padding: 10px 13px;
+    border-radius: 50%;
+}
+#footer .footer-icons .fa-instagram{
+    background: #ffffff;
+    padding: 10px 12px;
+    border-radius: 50%;
+}
+
+@media (max-width:576px) {
+    #footer .footer-bottom p{
+        font-size: 12px !important;
+    }
+}
+
+  /* 
+-------------------------------------------
+    FOOTER-ENDS
+-------------------------------------------
+ */
 
 
 /* -------------------------------------------------------------------------------------------------------------
