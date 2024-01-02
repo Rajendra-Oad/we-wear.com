@@ -358,6 +358,9 @@ img::selection{
 #shoe-items{
     font-weight: 560;
 }
+#shoe-items .view-all span{
+    font-weight: 560;
+}
 #shoe-items .img-slider span:first-child{
     color: #99470A;
 }
