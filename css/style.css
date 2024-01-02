@@ -325,11 +325,14 @@ img::selection{
     border-radius: 50%;
 
 }
+#shoe-items .nike svg{
+    width: 50px;
+}
 #shoe-items .view-icons a i:hover{
     background: #cbcbcb;
 
 }
-#shoe-items .img-slider{
+#shoe-items .img-slider .scroll-hori{
     overflow-x: scroll;
 }
 #shoe-items .img-slider img{
