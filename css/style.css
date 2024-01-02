@@ -21,9 +21,6 @@ a,i{
 .select-none{
     user-select: none;
 }
-*{
-    font-family: 'Alata';
-}
 img::selection{
     background: none;
 }
@@ -206,6 +203,9 @@ img::selection{
     cursor: pointer;
     height: 32px;
 }
+#nav-bar .logo .navbar-brand {
+    font-family: 'Alata';
+}
 #nav-bar .icon-circle input[type="search"]{
     background-color: #6e705117;
 }
@@ -338,6 +338,12 @@ img::selection{
 }
 #shoe-items .img-slider img{
     width: 450px !important;
+}
+#shoe-items .img-slider span{
+    font-weight: 550;
+}
+#shoe-items .img-slider span:first-child{
+    color: #99470A;
 }
 @media (max-width:576px) {
     #shoe-items .img-slider img{
