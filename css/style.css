@@ -339,7 +339,7 @@ img::selection{
 
 }
 #shoe-items .nike svg{
-    width: 50px;
+    width: 45px;
 }
 #shoe-items .nike a{
     text-decoration: none;
@@ -366,6 +366,47 @@ img::selection{
 }
 @media (max-width:576px) {
     #shoe-items .img-slider img{
+        width: 310px !important;
+    }
+}
+#shoe-items-1 .view-icons a{
+    text-decoration: none;
+    color: #000;
+}
+#shoe-items-1 .view-icons a i{
+    background: #E4E4E4;
+    padding: 15px 19px;
+    border-radius: 50%;
+
+}
+#shoe-items-1 .adidas svg{
+    width: 50px;
+}
+#shoe-items-1 .adidas a{
+    text-decoration: none;
+    color: #000;
+}
+#shoe-items-1 .view-icons a i:hover{
+    background: #cbcbcb;
+
+}
+#shoe-items-1 .img-slider .scroll-hori{
+    overflow-x: scroll;
+}
+#shoe-items-1 .img-slider img{
+    width: 450px !important;
+}
+#shoe-items-1{
+    font-weight: 560;
+}
+#shoe-items-1 .view-all span{
+    font-weight: 560;
+}
+#shoe-items-1 .img-slider span:first-child{
+    color: #99470A;
+}
+@media (max-width:576px) {
+    #shoe-items-1 .img-slider img{
         width: 310px !important;
     }
 }
