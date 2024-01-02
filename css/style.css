@@ -274,6 +274,7 @@ img::selection{
 #banner .hover-btn{
     width: 150px;
     height: 50px;
+    background: #ffffff80;
     font-weight: 500;
     transition: 0.25s;
 }
