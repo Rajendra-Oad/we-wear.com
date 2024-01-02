@@ -305,7 +305,7 @@ img::selection{
 }
 @media (max-width:360px) {
     #banner .banner-img h4{
-        font-size: 26px !important;
+        font-size: 30px !important;
         text-align: center; letter-spacing: -1.4px;
         /* font-family: 'Alata'; */
         font-weight: 645;
@@ -406,6 +406,9 @@ img::selection{
 #footer{
     background: #000;
     color: #fff;
+}
+#footer .logo .navbar-brand {
+    font-family: 'Alata';
 }
 #footer p{
     font-size: 13px !important;
