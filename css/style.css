@@ -443,41 +443,41 @@ img::selection{
 #shoe-items-2 .img-slider img {
     width: 450px !important;
 }
-#shoe-items-2 {
+#shoe-items-2{
     font-weight: 560;
 }
-#shoe-items-2 .view-all span {
+#shoe-items-2 .view-all span{
     font-weight: 560;
 }
-#shoe-items-2 .img-slider span:first-child {
+#shoe-items-2 .img-slider span:first-child{
     color: #99470A;
 }
-@media (max-width:576px) {
+@media (max-width:576px){
     #shoe-items-2 .img-slider img {
         width: 310px !important;
     }
 } 
+/*
 -------------------------------------------
     SHOE-ITEMS--ENDS
 -------------------------------------------
 -----------------------------------------------------------------------------------------------------------------
- */
  /* 
 -------------------------------------------
     FOOTER--STARTS
 -------------------------------------------
  */
-#footer {
-    background: #000;
+#footer{
+    background: #000 !important;
     color: #fff;
 }
-#footer .logo .navbar-brand {
+#footer .logo .navbar-brand{
     font-family: 'Alata';
 }
-#footer p {
+#footer p{
     font-size: 13px !important;
 }
-#footer h4 {
+#footer h4{
     font-size: 14.5px !important;
     font-weight: 600;
     letter-spacing: 2px;
@@ -485,42 +485,42 @@ img::selection{
 #footer .para{
     opacity: 0.5;
 }
-#footer .footer-bottom .footer-bottom-left .footer-content-p p {
+#footer .footer-bottom .footer-bottom-left .footer-content-p p{
     opacity: 0.5;
 }
-#footer .footer-content-p p>a {
+#footer .footer-content-p p>a{
     opacity: 0.5;
     text-decoration: none;
     color: #fff;
 }
-#footer .footer-content-p p>a:hover {
+#footer .footer-content-p p>a:hover{
     opacity: 1;
 }
-#footer .footer-icons {
+#footer .footer-icons{
     text-decoration: none;
     color: #000;
 }
-#footer .footer-icons i {
+#footer .footer-icons i{
     background: #ffffff;
     padding: 10px;
     opacity: 0.5;
     border-radius: 50%;
 }
-#footer .footer-icons i:hover {
+#footer .footer-icons i:hover{
     opacity: 1;
 }
-#footer .footer-icons .fa-facebook-f {
+#footer .footer-icons .fa-facebook-f{
     background: #ffffff;
     padding: 10px 13px;
     border-radius: 50%;
 }
-#footer .footer-icons .fa-instagram {
+#footer .footer-icons .fa-instagram{
     background: #ffffff;
     padding: 10px 12px;
     border-radius: 50%;
 }
 
-@media (max-width:576px) {
+@media (max-width:576px){
     #footer .footer-bottom p{
         font-size: 12px !important;
     }
@@ -643,7 +643,7 @@ img::selection{
     font-size: small;
 }
 #signup form .form-signup input{
-    width: 280px !important;
+    width: 279.5px !important;
     height: 45px !important;
     border-radius: 7px;
     font-size: 16px;
