@@ -478,7 +478,7 @@ img::selection{
     font-size: 13px !important;
 }
 #footer h4{
-    font-size: 14.5px !important;
+    font-size: 13px !important;
     font-weight: 600;
     letter-spacing: 2px;
 }
@@ -522,7 +522,7 @@ img::selection{
 
 @media (max-width:576px){
     #footer .footer-bottom p{
-        font-size: 12px !important;
+        font-size: 11.5px !important;
     }
 }
 

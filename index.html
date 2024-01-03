@@ -492,25 +492,41 @@
       </div>
   </section>
   <footer id="footer" class="mt-5">
-    <div class="row conainer p-4 p-md-5 ms-0 ms-lg-0 ms-xxl-5 col-11 d-flex justify-content-end">
-      <div class="col-xxl-3 logo px-5 col-xl-4 col-lg-4 col-md-6 col-12">
+    <div class="row conainer px-5 pt-5 px-md-5 ms-0 ms-lg-0 ms-xxl-5 col-11 d-flex justify-content-end" id="accordion">
+      <div class="col-xxl-3 logo px-0 px-md-0 px-lg-5 col-xl-4 col-lg-4 col-md-6 col-12">
         <a class="navbar-brand text-light fs-3" href="index.html"><span>WE WEAR</span></a>
         <p class="text-light mt-3 para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ab sed ex. Consequatur rerum ipsa amet?</p>
-        <div class="row footer-icons">
+        <div class="row footer-icons mb-4 pb-1">
           <div class="col-3 col-sm-1 col-md-2"><a href="https://www.youtube.com/user/nike" class="nav-link" target="_blank"><i class="fa-brands fa-youtube"></i></a></div>
           <div class="col-3 col-sm-1 col-md-2"><a href="https://www.facebook.com/nike" class="nav-link" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></div>
           <div class="col-3 col-sm-1 col-md-2"><a href="https://www.instagram.com/nike/" class="nav-link" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
           <div class="col-3 col-sm-1 col-md-2"><a href="https://twitter.com/Nike" class="nav-link" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></div>
         </div>
+        <hr class="d-block d-md-none">
       </div>
-      <div class="col-xxl-3 footer-content-p col-xl-3 col-lg-3 col-md-3 ms-md-5 mt-md-0 mt-lg-0 ms-lg-0 px-5 mt-5 mt-md-0">
+      <div class="d-md-block d-none col-xxl-3 footer-content-p col-xl-3 col-lg-3 col-md-3 ms-md-5 mt-md-0 mt-lg-0 ms-lg-0 px-0 px-md-5 mt-3 mt-md-0">
         <h4 class="mb-4">ABOUT WW</h4>
         <p><a href="#">Careers</a></p>
         <p><a href="#">News</a></p>
         <p><a href="#">Blog</a></p>
         <p><a href="#">Sustainability</a></p>
       </div>
-      <div class="col-xxl-3 footer-content-p col-xl-3 col-lg-3 col-md-6 mt-md-5 mt-lg-0 ms-lg-0 px-5 mt-5 mt-md-0">
+      <div class="d-md-none d-block col-xxl-3 footer-content-p col-xl-3 col-lg-3 col-md-3 ms-md-5 mt-md-0 mt-lg-0 ms-lg-0 px-0 px-md-5 mt-3 mt-md-0">
+        <h4 class="mb-4" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+          <div class="d-flex row">
+            <span class="col-10">ABOUT WW</span> 
+            <span class="col-2"><i class="fa-solid fa-chevron-down"></i></span>
+          </div>
+        </h4>
+        <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+          <p><a href="#">Careers</a></p>
+          <p><a href="#">News</a></p>
+          <p><a href="#">Blog</a></p>
+          <p><a href="#">Sustainability</a></p>
+          <hr class="d-flex d-md-none">
+        </div>
+      </div>
+      <div class="d-md-block d-none col-xxl-3 footer-content-p col-xl-3 col-lg-3 col-md-6 mt-md-5 mt-lg-0 ms-lg-0 px-0 px-md-5 mt-3 mt-md-0">
         <h4 class="mb-4">GET HELP</h4>
         <p><a href="#">Delivery</a></p>
         <p><a href="#">Returns</a></p>
@@ -518,21 +534,50 @@
         <p><a href="#">Payment Options</a></p>
         <p><a href="#">Contact</a></p>
       </div>
-      <div class="col-xxl-3 footer-content-p col-xl-2 ms-xxl-0 col-lg-2 col-md-3 ms-md-5 mt-md-5 mt-lg-0 ms-lg-0 px-5 mt-5 mt-md-0">
+      <div class="d-md-none d-block col-xxl-3 footer-content-p col-xl-3 col-lg-3 col-md-3 ms-md-5 mt-md-0 mt-lg-0 ms-lg-0 px-0 px-md-5 mt-3 mt-md-0">
+        <h4 class="mb-4" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+          <div class="d-flex row">
+            <span class="col-10">GET HELP</span> 
+            <span class="col-2"><i class="fa-solid fa-chevron-down"></i></span>
+          </div>
+        </h4>
+        <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+          <p><a href="#">Delivery</a></p>
+          <p><a href="#">Returns</a></p>
+          <p><a href="#">Order Status</a></p>
+          <p><a href="#">Payment Options</a></p>
+          <p><a href="#">Contact</a></p>
+          <hr class="d-flex d-md-none">
+        </div>
+      </div>
+      <div class="d-md-block d-none col-xxl-3 footer-content-p col-xl-2 ms-xxl-0 col-lg-2 col-md-3 ms-md-5 mt-md-5 mt-lg-0 ms-lg-0 px-0 px-md-5 mt-3 mt-md-0">
         <h4 class="mb-4">RESOURCES</h4>
         <p><a href="#">Our Work</a></p>
         <p><a href="#">Services</a></p>
         <p><a href="#">FAQ</a></p>
       </div>
+      <div class="d-md-none d-block col-xxl-3 footer-content-p col-xl-3 col-lg-3 col-md-3 ms-md-5 mt-md-0 mt-lg-0 ms-lg-0 px-0 px-md-5 mt-3 mt-md-0">
+        <h4 class="mb-4" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+          <div class="d-flex row">
+            <span class="col-10">RESOURCES</span> 
+            <span class="col-2"><i class="fa-solid fa-chevron-down"></i></span>
+          </div>
+        </h4>
+        <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+          <p><a href="#">Our Work</a></p>
+          <p><a href="#">Services</a></p>
+          <p><a href="#">FAQ</a></p>
+        </div>
+      </div>
     </div>
-    <hr>
+    <hr class="mt-md-5 mt-none">
     <div class="footer-bottom container-fluid ms-aut0 ms-md-0 me-0">
       <div class="row d-flex text-center justify-content-center">
         <div class="col-12 col-xl-6 col-md-12 d-flex ps-md-0 col-md-12 footer-bottom-left justify-content-center pe-xl-5">
           <p class="ms-0 ms-md-5 ms-xxl-0"><a href="#footer-bottom" class="nav-link"><i class="fa-solid fa-location-dot"></i> India &nbsp;&nbsp;&nbsp;&nbsp;</a></p>
           <div class="footer-content-p text-center justify-content-center d-flex">
-            <p>© 2023 We Wear, Inc. All Rights Reserved</p> &nbsp;
-            <p class="invisible d-none d-md-flex"><a href="https://iconscout.com/icons/puma" class="text-underline font-size-sm" target="_blank">Puma</a> by <a href="https://iconscout.com/contributors/icon-54" class="text-underline font-size-sm" target="_blank">Icon 54</a></p>
+            <p>© 2023 We Wear, Inc. All Rights Reserved</p>
+            <p class="invisible d-none d-md-flex "><a href="https://iconscout.com/icons/puma" class="text-underline font-size-sm" target="_blank">Puma</a> by <a href="https://iconscout.com/contributors/icon-54" class="text-underline font-size-sm" target="_blank">Icon 54</a></p>
           </div>
         </div>
         <div class="col-12 col-xl-6 col-md-12 ms-md-5 ms-xl-0 ms-lg-5 d-flex justify-content-center footer-content-p d-none d-md-flex">
