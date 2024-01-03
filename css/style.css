@@ -567,7 +567,7 @@ img::selection{
     cursor: text;
     border: 1px solid #000;
     outline: none;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 #login form .login-btn:hover {
     opacity: 0.89;
@@ -643,14 +643,14 @@ img::selection{
     font-size: small;
 }
 #signup form .form-signup input{
-    width: 330px !important;
+    width: 280px !important;
     height: 45px !important;
     border-radius: 7px;
     font-size: 16px;
     border: 1px solid #000;
     outline: none;
     box-shadow: none;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 #signup form .login-btn:hover{
     opacity: 0.89;
