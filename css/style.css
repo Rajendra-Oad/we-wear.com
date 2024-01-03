@@ -7,6 +7,7 @@
 a,i{
     cursor: pointer;
 }
+
 .btn-close:focus,.btn-close:active{
     outline: none !important;
     box-shadow: none !important;
@@ -151,8 +152,8 @@ img::selection{
     list-style-type: none;
 }
 #nav-bar .underline a{
-    color: gray;
-    font-weight: 500;
+    color: rgb(100, 100, 100);
+    font-weight: 545;
 }
 #nav-bar .underline .middle-items>a:hover {
     color: #000000;
@@ -328,6 +329,11 @@ img::selection{
     SHOE-ITEMS--STARTS
 -------------------------------------------
  */
+
+#shoe-items header{
+    font-family: "Helvetica Now Text Medium",Helvetica,Arial,sans-serif;
+    font-size: 40px;
+}
 #shoe-items .view-icons a{
     text-decoration: none;
     color: #000;
@@ -607,6 +613,71 @@ img::selection{
 }
 @media (max-width:360px) {
     #login form .form input{
+        width: 270px !important;
+        height: 45px !important;
+    }
+}
+@media (min-width:992px) {
+    #login img{
+        margin-top: 62.5px !important;
+    }
+}
+/*
+-------------------------------------------
+    signup-file--strats
+-------------------------------------------
+ */
+#signup form{
+    padding: 10px 0 !important;
+}
+#signup form .form input{
+    width: 330px !important;
+    height: 45px !important;
+    border-radius: 7px;
+    font-size: 16px;
+    border: 1px solid #000;
+    outline: none;
+    margin-bottom: 15px;
+}
+#signup form .login-btn:hover{
+    opacity: 0.89;
+}
+#signup form .btn-1{
+    border: 0.1px solid #00000079;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 5px 50px !important;
+}
+#signup form .btn-1:hover{
+    background-color: #00000042;
+    border: 0.1px solid #000000;
+}
+#signup form .btn-1 a{
+    text-decoration: none;
+    color: #000;
+}
+#signup form .btn-2{
+    border: 0.1px solid #00000079;
+    border-radius: 20px;
+    padding: 5px 55px !important;
+}
+#signup form .btn-2 a{
+    text-decoration: none;
+    color: #000;
+}
+#signup form .btn-2:hover{
+    background-color: #00000042;
+    border: 0.1px solid #000000;
+}
+#signup .login-link a{
+    text-decoration: none;
+    color: #000;   
+}
+#signup .login-link a:hover,#signup .login-link a:focus{
+    opacity: 0.7;
+}
+@media (max-width:360px) {
+    #signup form .form input{
         width: 270px !important;
         height: 45px !important;
     }
