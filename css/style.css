@@ -344,143 +344,119 @@ img::selection{
     border-radius: 50%;
 
 }
-#shoe-items .nike svg{
+#shoe-items .nike svg {
     width: 35px;
 }
-#shoe-items .nike a{
+#shoe-items .nike a {
     text-decoration: none;
     color: #000;
 }
-#shoe-items .view-icons a i:hover{
+#shoe-items .view-icons a i:hover {
     background: #cbcbcb;
 
 }
-#shoe-items .img-slider .scroll-hori{
+#shoe-items .img-slider .scroll-hori {
     overflow-x: scroll;
 }
-#shoe-items .img-slider img{
+#shoe-items .img-slider img {
     width: 450px !important;
 }
-#shoe-items{
+#shoe-items {
     font-weight: 560;
 }
-#shoe-items .view-all span{
+#shoe-items .view-all span {
     font-weight: 560;
 }
-#shoe-items .img-slider span:first-child{
+#shoe-items .img-slider span:first-child {
     color: #99470A;
 }
 @media (max-width:576px) {
-    #shoe-items .img-slider img{
+    #shoe-items .img-slider img {
         width: 310px !important;
     }
 }
-#shoe-items-1 .view-icons a{
+#shoe-items-1 .view-icons a {
     text-decoration: none;
     color: #000;
 }
-#shoe-items-1 .view-icons a i{
+#shoe-items-1 .view-icons a i {
     background: #E4E4E4;
     padding: 15px 19px;
     border-radius: 50%;
 
 }
-#shoe-items-1 .adidas svg{
+#shoe-items-1 .adidas svg {
     width: 50px;
 }
-#shoe-items-1 .adidas a{
+#shoe-items-1 .adidas a {
     text-decoration: none;
     color: #000;
 }
-#shoe-items-1 .view-icons a i:hover{
+#shoe-items-1 .view-icons a i:hover {
     background: #cbcbcb;
 
 }
-#shoe-items-1 .img-slider .scroll-hori{
+#shoe-items-1 .img-slider .scroll-hori {
     overflow-x: scroll;
 }
-#shoe-items-1 .img-slider img{
+#shoe-items-1 .img-slider img {
     width: 450px !important;
 }
-#shoe-items-1{
+#shoe-items-1 {
     font-weight: 560;
 }
-#shoe-items-1 .view-all span{
+#shoe-items-1 .view-all span {
     font-weight: 560;
 }
-#shoe-items-1 .img-slider span:first-child{
+#shoe-items-1 .img-slider span:first-child {
     color: #99470A;
 }
 @media (max-width:576px) {
-    #shoe-items-1 .img-slider img{
+    #shoe-items-1 .img-slider img {
         width: 310px !important;
     }
 }
-#shoe-items-2 .view-icons a{
+#shoe-items-2 .view-icons a {
     text-decoration: none;
     color: #000;
 }
-#shoe-items-2 .view-icons a i{
+#shoe-items-2 .view-icons a i {
     background: #E4E4E4;
     padding: 15px 19px;
     border-radius: 50%;
 
 }
-#shoe-items-2 .puma svg{
+#shoe-items-2 .puma svg {
     width: 32px;
 }
-#shoe-items-2 .puma a{
+#shoe-items-2 .puma a {
     text-decoration: none;
     color: #000;
 }
-#shoe-items-2 .view-icons a i:hover{
+#shoe-items-2 .view-icons a i:hover {
     background: #cbcbcb;
 
 }
-#shoe-items-2 .img-slider .scroll-hori{
+#shoe-items-2 .img-slider .scroll-hori {
     overflow-x: scroll;
 }
-#shoe-items-2 .img-slider img{
+#shoe-items-2 .img-slider img {
     width: 450px !important;
 }
-#shoe-items-2{
+#shoe-items-2 {
     font-weight: 560;
 }
-#shoe-items-2 .view-all span{
+#shoe-items-2 .view-all span {
     font-weight: 560;
 }
-#shoe-items-2 .img-slider span:first-child{
+#shoe-items-2 .img-slider span:first-child {
     color: #99470A;
 }
 @media (max-width:576px) {
-    #shoe-items-2 .img-slider img{
+    #shoe-items-2 .img-slider img {
         width: 310px !important;
     }
-}
-/* #shoe-items .carousel-control-prev{
-    opacity: 1;
-}
-#shoe-items .carousel-control-next{
-    opacity: 1;
-}
-#shoe-items #carouselExample img{
-    width: 345px !important;
-}
-#shoe-items #carouselExample .carousel-control-prev i{
-    background: #fff !important;
-    font-size: 12px;
-    padding: 15px 18px!important;
-    border-radius: 50%;
-    color: #000 !important;
-}
-#shoe-items #carouselExample .carousel-control-next i{
-    background: #fff !important;
-    font-size: 12px;
-    padding: 15px 18px!important;
-    border-radius: 50%;
-    color: #000 !important;
-} */
-  /* 
+} 
 -------------------------------------------
     SHOE-ITEMS--ENDS
 -------------------------------------------
@@ -491,17 +467,17 @@ img::selection{
     FOOTER--STARTS
 -------------------------------------------
  */
-#footer{
+#footer {
     background: #000;
     color: #fff;
 }
 #footer .logo .navbar-brand {
     font-family: 'Alata';
 }
-#footer p{
+#footer p {
     font-size: 13px !important;
 }
-#footer h4{
+#footer h4 {
     font-size: 14.5px !important;
     font-weight: 600;
     letter-spacing: 2px;
@@ -509,15 +485,15 @@ img::selection{
 #footer .para{
     opacity: 0.5;
 }
-#footer .footer-bottom .footer-bottom-left .footer-content-p p{
+#footer .footer-bottom .footer-bottom-left .footer-content-p p {
     opacity: 0.5;
 }
-#footer .footer-content-p p>a{
+#footer .footer-content-p p>a {
     opacity: 0.5;
     text-decoration: none;
     color: #fff;
 }
-#footer .footer-content-p p>a:hover{
+#footer .footer-content-p p>a:hover {
     opacity: 1;
 }
 #footer .footer-icons {
@@ -530,15 +506,15 @@ img::selection{
     opacity: 0.5;
     border-radius: 50%;
 }
-#footer .footer-icons i:hover{
+#footer .footer-icons i:hover {
     opacity: 1;
 }
-#footer .footer-icons .fa-facebook-f{
+#footer .footer-icons .fa-facebook-f {
     background: #ffffff;
     padding: 10px 13px;
     border-radius: 50%;
 }
-#footer .footer-icons .fa-instagram{
+#footer .footer-icons .fa-instagram {
     background: #ffffff;
     padding: 10px 12px;
     border-radius: 50%;
@@ -562,37 +538,56 @@ img::selection{
     login-file--strats
 -------------------------------------------
  */
-#login form{
+#login form {
     padding: 10px 0 !important;
 }
-#login form .form input{
+#login .form-login{
+    position: relative;
+}
+#login .form-login .label {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    pointer-events: none;
+    transition: all 0.5s;
+}
+#login .form-login input:focus ~ .label,#login .form-login .form-control:not(:placeholder-shown).form-control:not(:focus) ~ .label{
+    top: -12px !important;
+    background: #fff;
+    position: absolute;
+    padding: 0 4px;
+    font-size: small;
+}
+
+#login form .form input {
     width: 330px !important;
     height: 45px !important;
-    border-radius: 7px;
-    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: none;
+    cursor: text;
     border: 1px solid #000;
     outline: none;
     margin-bottom: 15px;
 }
-#login form .login-btn:hover{
+#login form .login-btn:hover {
     opacity: 0.89;
 }
 #login form .btn-1{
-    border: 0.1px solid #00000079;
+    border: 1px solid #00000054;
     border-radius: 20px;
     margin-bottom: 10px;
     padding: 5px 50px !important;
 }
 #login form .btn-1:hover{
-    background-color: #00000042;
-    border: 0.1px solid #000000;
+    border: 1px solid #000000;
+    background-color: #00000010;
 }
 #login form .btn-1 a{
     text-decoration: none;
     color: #000;
 }
 #login form .btn-2{
-    border: 0.1px solid #00000079;
+    border: 1px solid #00000054;
     border-radius: 20px;
     padding: 5px 55px !important;
 }
@@ -601,8 +596,8 @@ img::selection{
     color: #000;
 }
 #login form .btn-2:hover{
-    background-color: #00000042;
-    border: 0.1px solid #000000;
+    background-color: #00000010;
+    border: 1px solid #000000;
 }
 #login .login-link a{
     text-decoration: none;
@@ -630,13 +625,31 @@ img::selection{
 #signup form{
     padding: 10px 0 !important;
 }
-#signup form .form input{
+#signup .form-signup{
+    position: relative;
+}
+#signup .form-signup .label {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    pointer-events: none;
+    transition: all 0.5s;
+}
+#signup .form-signup input:focus ~ .label,#signup .form-signup .form-control:not(:placeholder-shown).form-control:not(:focus) ~ .label{
+    top: -12px !important;
+    background: #fff;
+    padding: 0 4px;
+    position: absolute;
+    font-size: small;
+}
+#signup form .form-signup input{
     width: 330px !important;
     height: 45px !important;
     border-radius: 7px;
     font-size: 16px;
     border: 1px solid #000;
     outline: none;
+    box-shadow: none;
     margin-bottom: 15px;
 }
 #signup form .login-btn:hover{
