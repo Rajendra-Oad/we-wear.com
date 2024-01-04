@@ -12,12 +12,12 @@ a,i{
     outline: none !important;
     box-shadow: none !important;
 }
+.default-cursor{
+    cursor: default;
+}
 *{
     scroll-behavior: smooth;
-}
-*::selection{
-    color: white;
-    background-color: #6E7051;
+    font-family: 'Alata',sans-serif;
 }
 .select-none{
     user-select: none;
@@ -90,12 +90,6 @@ img::selection{
 }
 #scroll-up .scroll a i:hover{
     background: #ffffffce;
-}
-@font-face {
-    font-family: 'my-font';
-    src: url(/fonts/Futura\ Condensed\ Extra\ Bold.otf)format('opentype');
-    font-weight: 700;
-    font-style: normal;
 }
 /* 
 -------------------------------------------
@@ -211,7 +205,7 @@ img::selection{
     height: 32px;
 }
 #nav-bar .logo .navbar-brand {
-    font-family: 'Alata';
+    font-family: 'Alata',sans-serif;
 }
 #nav-bar .icon-circle input[type="search"]{
     background-color: #6e705117;
@@ -259,7 +253,7 @@ img::selection{
 #banner .banner-img h4{
     font-size: 60px !important;
     font-weight: 650;
-    /* font-family: 'Alata',sans-serif; */
+    font-family: 'Alata',sans-serif;
     text-transform: uppercase;
 }
 #banner img{
@@ -322,20 +316,26 @@ img::selection{
  */
 
 #shoe-items header h2{
-    font-family: 'my-font',sans-serif;
+    font-family: 'Alata',sans-serif;
     font-size: 64px;
     line-height: 10px;
+    font-weight: 700;
     margin-top: 30px !important;
     letter-spacing: -3px;
-    margin-top: 1px;
 }
-@media (max-width:768px) {
+@media (max-width:992px) {
     #shoe-items header h2{
-        font-size: 30px;
-        line-height: 0px;
-        margin-top: 5px !important;
+        font-size: 45px;
+        line-height: 40px;
+        margin-top: -15px !important;
         letter-spacing: -3px;
-        margin-top: 1px;
+    }
+    #shoe-items header .btn{
+        padding: 6px 22px !important;
+        font-weight: 600;
+    }
+    #shoe-items header {
+        padding: 0 20px !important;
     }
 }
 #shoe-items .view-icons a{
@@ -477,7 +477,12 @@ img::selection{
 #info {
     font-size: 18px;
     /* padding: 50px 0; */
+    background: #6e7051d1;
 }
+#info .row .rounded-pill {
+    color: #fff;
+}
+
  /*
 -------------------------------------------
     FOOTER--STARTS
@@ -568,7 +573,7 @@ img::selection{
     transition: all 0.5s;
 }
 #login .form-login input:focus ~ .label,#login .form-login .form-control:not(:placeholder-shown).form-control:not(:focus) ~ .label{
-    top: -12px !important;
+    top: -10px !important;
     background: #fff;
     position: absolute;
     padding: 0 4px;
@@ -652,7 +657,7 @@ img::selection{
     transition: all 0.5s;
 }
 #signup .form-signup input:focus ~ .label,#signup .form-signup .form-control:not(:placeholder-shown).form-control:not(:focus) ~ .label{
-    top: -12px !important;
+    top: -10px !important;
     background: #fff;
     padding: 0 4px;
     position: absolute;
