@@ -93,7 +93,9 @@ img::selection{
 }
 @font-face {
     font-family: 'my-font';
-    src: url(/fonts/Futura\ Condensed\ Extra\ Bold.otf);
+    src: url(/fonts/Futura\ Condensed\ Extra\ Bold.otf)format('opentype');
+    font-weight: 700;
+    font-style: normal;
 }
 /* 
 -------------------------------------------
