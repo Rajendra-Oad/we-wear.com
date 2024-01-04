@@ -91,6 +91,12 @@ img::selection{
 #scroll-up .scroll a i:hover{
     background: #ffffffce;
 }
+@font-face {
+    font-family: 'my-font';
+    src: url(/fonts/Futura\ Condensed\ Extra\ Bold.otf)format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
 /* 
 -------------------------------------------
     TOP_NAV-BAR-STARTS
@@ -252,7 +258,8 @@ img::selection{
  */
 #banner .banner-img h4{
     font-size: 60px !important;
-    font-weight: 600;
+    font-weight: 650;
+    /* font-family: 'Alata',sans-serif; */
     text-transform: uppercase;
 }
 #banner img{
@@ -299,29 +306,13 @@ img::selection{
         font-size: 35px !important;
         text-align: center;
     }
-    #banner .banner-img p{
-        display: none;
-    }
-   
 }
 @media (max-width:360px) {
     #banner .banner-img h4{
         font-size: 30px !important;
         text-align: center; letter-spacing: -1.4px;
-        /* font-family: 'Alata'; */
         font-weight: 645;
     }
-    #banner .banner-img p{
-        display: none;
-    }
-   
-}
-@media (max-width:768px) {      
-    #banner .banner-img{
-        overflow: hidden;
-        text-align: center;
-    }
-    
 }
 
  /* 
@@ -330,9 +321,22 @@ img::selection{
 -------------------------------------------
  */
 
-#shoe-items header{
-    font-family: "Helvetica Now Text Medium",Helvetica,Arial,sans-serif;
-    font-size: 40px;
+#shoe-items header h2{
+    font-family: 'my-font',sans-serif;
+    font-size: 64px;
+    line-height: 10px;
+    margin-top: 30px !important;
+    letter-spacing: -3px;
+    margin-top: 1px;
+}
+@media (max-width:768px) {
+    #shoe-items header h2{
+        font-size: 30px;
+        line-height: 0px;
+        margin-top: 5px !important;
+        letter-spacing: -3px;
+        margin-top: 1px;
+    }
 }
 #shoe-items .view-icons a{
     text-decoration: none;
