@@ -567,17 +567,18 @@ img::selection{
     position: absolute;
     top: 10px;
     left: 12px;
+    background: #fff;
+    padding: 0;
+    margin: 0;
     pointer-events: none;
     transition: all 0.5s;
 }
 #login .form-login input:focus ~ .label,#login .form-login .form-control:not(:placeholder-shown).form-control:not(:focus) ~ .label{
-    top: -10px !important;
-    background: #fff;
+    top: -11px !important;
+    padding: 0 2px;
     position: absolute;
-    padding: 0 4px;
     font-size: small;
 }
-
 #login form .form input {
     width: 330px !important;
     height: 45px !important;
@@ -651,13 +652,15 @@ img::selection{
     position: absolute;
     top: 10px;
     left: 12px;
+    background: #fff;
+    padding: 0;
+    margin: 0;
     pointer-events: none;
     transition: all 0.5s;
 }
 #signup .form-signup input:focus ~ .label,#signup .form-signup .form-control:not(:placeholder-shown).form-control:not(:focus) ~ .label{
-    top: -10px !important;
-    background: #fff;
-    padding: 0 4px;
+    top: -11px !important;
+    padding: 0 2px;
     position: absolute;
     font-size: small;
 }
