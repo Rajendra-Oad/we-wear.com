@@ -17,7 +17,6 @@ a,i{
 }
 *{
     scroll-behavior: smooth;
-    font-family: 'Alata',sans-serif;
 }
 .select-none{
     user-select: none;
@@ -252,8 +251,7 @@ img::selection{
  */
 #banner .banner-img h4{
     font-size: 60px !important;
-    font-weight: 650;
-    font-family: 'Alata',sans-serif;
+    font-weight: 645;
     text-transform: uppercase;
 }
 #banner img{
