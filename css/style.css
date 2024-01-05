@@ -653,6 +653,11 @@ img::selection{
     outline: none;
     margin-bottom: 25px;
 }
+#login form .form span{
+    position: absolute;
+    top: 12px;
+    right: 15px;
+}
 #login form .login-btn:hover {
     opacity: 0.89;
 }
@@ -728,8 +733,13 @@ img::selection{
     position: absolute;
     font-size: small;
 }
+#signup form .form-signup span{
+    position: absolute;
+    top: 12px;
+    right: 15px;
+}
 #signup form .form-signup input{
-    width: 279.5px !important;
+    width: 330px !important;
     height: 45px !important;
     border-radius: 7px;
     font-size: 16px;

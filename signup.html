@@ -39,10 +39,12 @@
                     <div class="form-signup">
                         <input type="password" id="password" class="form-control" placeholder="">
                         <label for="password" class="label">Password</label>
+                        <span onclick="myfunction()" ondblclick="myfunction1()" id="eye-icon"><i class="fa-regular fa-eye"></i></span>
                     </div>
                     <div class="form-signup" id="form1">
                         <input type="password" id="password" class="form-control" placeholder="">
                         <label for="password" class="label">Confirm Password</label>
+                        <span onclick="myfunction()" ondblclick="myfunction1()" id="eye-icon"><i class="fa-regular fa-eye"></i></span>
                     </div>
                     <br>
                     <div class="login-btn d-flex align-ites-center justify-content-center">
@@ -58,5 +60,14 @@
             </div>
         </div>
     </div>
+    <script>
+        function myfunction(){
+            document.getElementById('password').type='text';
+
+        }
+        function myfunction1(){
+            document.getElementById('eye-icon').innerHTML = '<i class="fa-regular fa-eye-slash"></i>';
+        }
+    </script>
 </body>
 </html>
