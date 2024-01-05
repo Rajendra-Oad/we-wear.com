@@ -644,7 +644,7 @@ img::selection{
     font-size: small;
 }
 #login form .form input {
-    width: 330px !important;
+    width: 100% !important;
     height: 45px !important;
     border-radius: 8px;
     box-shadow: none;
@@ -733,13 +733,13 @@ img::selection{
     position: absolute;
     font-size: small;
 }
-#signup form .form-signup span{
+#signup form .pass span{
     position: absolute;
     top: 12px;
     right: 15px;
 }
 #signup form .form-signup input{
-    width: 330px !important;
+    width: 100% !important;
     height: 45px !important;
     border-radius: 7px;
     font-size: 16px;
